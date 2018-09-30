@@ -1,0 +1,146 @@
+body, html{
+	height: 100%;
+	margin:0;
+	font-size:16px;
+	font-family:"Lato", sans-serif;
+	font-weight: 400;
+	line-height: 1.8em;
+	color:#58595B;
+}
+
+li{
+	list-style:none;
+}
+
+/*nav bar material */
+.navbar{
+	background-color:#58595B;
+	overflow:hidden;
+	height:63px;
+}
+
+.navbar a{
+	float:left;
+	display:block;
+	color:#FF8200;
+	text-align: center;
+	padding:14px 16px;
+	text-decoration: none;
+	font-size:17px;
+}
+
+.navbar ul{
+	margin:8px 0 0 0;
+	list-style: none;
+}
+.navbar a:hover{
+	background-color:#FF8200;
+	color:#58595B;
+}
+/*nav bar material */
+/*nav bar side bar */
+.side-nav{
+	height:100%;
+	width:0;
+	position:fixed;
+	z-index:1;
+	top:0;
+	left:0;
+	background-color: #FF8200;
+	opacity:0.9;
+	overflow-x: hidden;
+	padding-top:60px;
+	transition: 0.5s;
+}
+
+.side-nav a{
+	padding: 10px 10px 10px 30px;
+	text-decoration: none;
+	font-size: 22px;
+	color:#58595B;
+	display:block;
+	transition:0.3s;
+}
+/*Need a better orange */
+.side-nav a:hover{
+	color:#fff;
+}
+
+.side-nav .btn-close{
+	position:absolute;
+	top:0;
+	right:22px;
+	font-size: 36px;
+	margin-left:50px;
+}
+/*nav bar side bar*/
+.img1, .img2, .img3{
+	position:relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	/* Creates the parallax effect, if you changed from fixed to scroll it'll be normal.*/
+	background-attachment: fixed
+}
+
+.img1{
+	background-image:url("image1.jpeg");
+    min-height:100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.img2{
+	background-image:url("image2.jpeg");
+    min-height:100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.img3{
+	background-image:url("image3.jpg");
+    min-height:100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.section{
+	text-align:center;
+	padding:50px 80px;
+}
+
+.text{
+	position:absolute;
+	top:50%;
+	width:100%;
+	text-align:center;
+	color:#FFFFFF;
+	font-size:27px;
+	letter-spacing:8px;
+	text-transform: uppercase;
+}
+
+.text .border{
+	background-color: #58595B;
+	color:#FF8200;
+	padding:20px;
+}
+
+.text .border.trans{
+	background-color: transparent;
+}
+
+
+@media(max-width: 383px){
+	.img1, .img2, .img3{
+		background-attachment: scroll;
+	}
+
+}
+
+
+/*sidebar small screen */
+@media(min-width:568px){
+	open-slide{display:none;}
+}

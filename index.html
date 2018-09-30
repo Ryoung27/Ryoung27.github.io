@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<!-- I worked through the Travisty Media Parallax page and thought it would be great to apply the lessons. Link to site: https://www.traversymedia.com -->
+	<!-- Second attempt at personal site, probably parrallax-->
+	<title>R Young Test Site</title>
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon"
+      type="image/x-con"
+      href="favicon.ico">
+</head>
+<body><!--New navbar work-->
+	<nav class="navbar">
+		<!-- Sidebar -->
+		<span class="open-slide">
+			<a href="#" onclick="openSlideMenu()">
+				<svg width="30" height="30">
+            		<path d="M0,5 30,5" stroke="#fff" stroke-width="5"/>
+            		<path d="M0,14 30,14" stroke="#fff" stroke-width="5"/>
+            		<path d="M0,23 30,23" stroke="#fff" stroke-width="5"/>
+				</svg>
+			</a>
+		</span>
+		<!--Sidebar-->
+		<ul class="navbar-nav">
+			<li><a href="https://ryoung27.github.io">Home</a></li>
+			<li><a href="https://www.linkedin.com/in/ronnie-young-bb59a2119/" target="_blank">Linkedin</a></li>
+			<li><a href="https://github.com/Ryoung27" target="_blank">Github</a></li>
+			<li><a>Projects</a></li>
+			<li><a>Blog</a></li>
+		</ul>
+	</nav><!-- -->
+	<!--sidebar-->
+	<div id="side-menu" class="side-nav">
+	    <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+	    <a href="https://ryoung27.github.io">Home</a>
+	    <a href="https://www.linkedin.com/in/ronnie-young-bb59a2119/" target="_blank">Linkedin</a>
+		<a href="https://github.com/Ryoung27" target="_blank">Github</a>
+		<a>Projects</a>
+		<a>Blog</a>
+	</div>
+	<!--sidebar-->
+
+	<div class="img1">
+		<div class="text">
+			<span class="border">
+				Richard Young
+			</span>
+		</div>
+	</div>
+	<section class="section">
+		<h2>
+			About me
+		</h2>
+		<p>
+			As you may have guessed my name is Ronnie Young and I am interested in Web Development. I have been working on the skills to be active in the field for roughly one year. I started this process in Kansas City and am trying to continue it in my home state of Tennessee.
+		</p>
+	</section>
+	<div class="img2">
+		<div class="text">
+			<span class="border trans">
+				Nashville
+			</span>
+		</div>
+	</div>
+	<section class="section">
+		<h2>
+			Education Background
+		</h2>
+		<p>
+			I attended the University of Tennessee and graduated with a B.A. then attended JCCC for Computer Information Sciences. I am currently working on improving my Web Development skills.
+		</p>
+	</section>
+	<div class="img3">
+		<div class="text">
+			<span class="border trans">
+				Work so far
+			</span>
+		</div>
+	</div>
+	<section class="section">
+		<h2>
+			Experience
+		</h2>
+			<ul>
+				<li>England's 2012-2015</li>
+				<li>Bank of Blue Valley 2015-2018</li>
+			</ul>
+	</section>
+	<div class="img1">
+		<div class="text">
+			<!-- I want to make the text in this bottom one smaller for contact purposes-->
+			<span class="border border-small">
+				Richard Young
+				<!--email here-->
+			</span>
+		</div>
+	</div>
+
+<!--Sidebar script -->
+	<script>
+	    function openSlideMenu(){
+	      document.getElementById('side-menu').style.width = '250px';
+	      document.getElementById('main').style.marginLeft = '250px';
+	    }
+
+	    function closeSlideMenu(){
+	      document.getElementById('side-menu').style.width = '0';
+	      document.getElementById('main').style.marginLeft = '0';
+	    }
+	</script>
+<!--Sidebar script -->
+</body>
+</html>
