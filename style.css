@@ -74,7 +74,7 @@ li{
 	margin-left:50px;
 }
 /*nav bar side bar*/
-.img1, .img2, .img3, .img4, .img5, .img6{
+.img1, .img2, .img3{
 	position:relative;
 	opacity: 0.70;
 	background-position: center;
@@ -82,6 +82,16 @@ li{
 	background-repeat:no-repeat;
 	/* Creates the parallax effect, if you changed from fixed to scroll it'll be normal.*/
 	background-attachment: fixed
+}
+
+.img4, .img5, .img6{
+	position:relative;
+	opacity: 0.70;
+	background-position: center;
+	background-size:cover;
+	background-repeat:no-repeat;
+	/* Creates the parallax effect, if you changed from fixed to scroll it'll be normal.*/
+	background-attachment: scroll
 }
 
 .img1{
