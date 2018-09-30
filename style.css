@@ -74,7 +74,7 @@ li{
 	margin-left:50px;
 }
 /*nav bar side bar*/
-.img1, .img2, .img3{
+.img1, .img2, .img3, .img4, .img5, .img6{
 	position:relative;
 	opacity: 0.70;
 	background-position: center;
@@ -100,6 +100,27 @@ li{
 
 .img3{
 	background-image:url("image3.jpg");
+    min-height:100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.img4{
+	background-image:url("image4.jpg");
+    min-height:100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.img5{
+	background-image:url("image5.jpg");
+    min-height:100%;
+    width: 100%;
+    max-width: 100%;
+}
+
+.img6{
+	background-image:url("image6.jpg");
     min-height:100%;
     width: 100%;
     max-width: 100%;
@@ -133,7 +154,7 @@ li{
 
 
 @media(max-width: 383px){
-	.img1, .img2, .img3{
+	.img1, .img2, .img3, .img4, .img5, .img6{
 		background-attachment: scroll;
 	}
 
