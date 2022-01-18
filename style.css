@@ -162,6 +162,12 @@ li{
 	background-color: transparent;
 }
 
+.sr-only {
+	font-size: 0;
+	height: 1px;
+	overflow: hidden;
+	display: block;
+  }
 
 @media(max-width: 383px){
 	.img1, .img2, .img3, .img4, .img5, .img6{
